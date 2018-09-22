@@ -1,0 +1,23 @@
+﻿Para el análisis exploratorio "orígenes" las conclusiones estarán atadas primero a la cantidad de eventos que se producen en el 2018, desde ahí también podemos representar los eventos a través de los días de las semanas del mismo año, y para profundizar podemos analizar los eventos a través de las horas del día de las semanas del mismo año.
+Para este tipo de análisis observamos que los eventos a través del día crecen a partir de las 7hs hasta las 14hs, desde ese momento la cantidad de eventos comienzan a oscilar levemente hasta las 23pm (donde la cantidad de eventos es elevada), y desde ahí comienza la etapa decreciente hasta las 7hs. Podemos concluir que a las 23hs se produce el máximo de eventos, y el mínimo de eventos se produce a las 7hs.
+La cantidad de eventos a través de los días de la semana toman el máximo el día martes, comienzan a decrecer hasta el día domingo, y vuelve a tomar un valor más elevado el lunes, donde hasta el martes crece para retomar el valor máximo. 
+Para analizar la originalidad de los eventos respecto lugar geográfico comparamos la cantidad de eventos realizados en los diferentes países que aparecen en el archivo, se puede observar que Brasil es el que más eventos tiene, y los demás son despreciables respecto a este, de todos modos se ha comparado en una escala logarítmica para poder apreciar los demás países. Cuando comparamos por regiones, podemos observar que estas son pertenecientes a Brasil; Sao Paulo como principal generadora de eventos (24996) , siguiendo de Minas Gerais (7755) , Rio de Janeiro (6913), Bahia (5737) y podemos seguir observando en el análisis las demás regiones. 
+
+Ahora nos dedicaremos a analizar los eventos compra, también por hora y días de la semana. Podemos observar que a comparación de la totalidad de eventos estos son despreciables, vamos hacer un zoom y analizarlos; empezando por las 7hs vemos un crecimiento hasta las 13hs, a las 14hs vemos una recaída, que luego mejorará pero se mantendrá oscilando hasta la  1h, dentro de los horarios oscilantes podemos observar un máximo a las 19hs, después de la 1h podemos observar que las compras comienzan a decrecer hasta llegar a las 7hs al mínimo de compras (recordar que para los eventos, el mínimo es el mismo) . Para los días de la semana las compras se perciben más los martes (mismo máximo que los eventos), oscila hasta el jueves y comienza a decrecer hasta el domingo, donde comienza a crecer nuevamente hasta llegar al máximo.
+
+Si analizamos los diferentes tipos de eventos que pueden ocurrir en un año, podremos observar que el evento que más se produce es “ver un producto”, este a su vez es mucho más grande que los demás eventos, por eso para el gráfico se ajusta a una escala logarítmica. Observamos entonces el mínimo con más claridad, y este es “lead”.
+Se creó una tabla para obtener más detalle, sobre la comparación de cada tipo de evento a través de los días de la semana y a cada hora del día; en esta sección no se sacarán conclusiones especificas, sino que se desarrollaran en otro apartado más profundamente. (Ver retenciones).
+
+Analizaremos la originalidad del evento respecto del dispositivo con el que accede para producir el evento. Aclaración: Se quiso profundizar para analizar la compra y la originalidad, pero los datos fueron escasos. De este análisis se puede concluir que los smartphones son los dispositivos más comunes para entrar a la página de trocafone, aunque las computadoras compiten por el mismo puesto (44239 vs 41790),  por ultimo una tablet con 1234 eventos.
+
+Respecto a los tipos de resolución de los dispositivos usados para generar eventos tenemos el top5: 360x640 (300009)(Smartphone), 1366x768(Computer), 320x534(Smartphone),1920x1080(Computer) y por ultimo 320x570(Smartphone).
+
+Los sistemas operativos más usados son, windows 7, 10 principalmente, después Android entre la version 7 y descendiendo hasta la 4.4.4; entre otros se encuentra el iOS 11.3. 
+
+Los channel donde se originan la mayor cantidad de eventos son Paid (44193) Direct (18522), Organic (12348), Referral (11384).
+
+Analizamos los diferentes motores de búsqueda donde se orginan los eventos, creamos un grafico en escala logarítmica, porque google tiene muchos más eventos que los demás motores de búsqueda, podemos observar que los otros motores de busqueda son Bing, Yahoo y Ask. 
+
+Por ultimo hablaremos de los navegadores usados para entrar a la página, Google Chrome esta en el primer puesto y compiten con sus diferentes versiones.  Chrome 66.0, Chrome Mobile 66.0, Chrome 65.0, Chrome Mobile 65.0 (entre otras versiones); también podemos observar el navegador Safari, Samsung internet, Firefox y Edge, IE 11 y Opera.
+
+
